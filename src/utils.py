@@ -4,6 +4,11 @@ from typing import Optional
 import plotly.graph_objects as go
 
 
+def format_pct(v):
+    return int(round(v * 100))
+def format_round(v, dec=2):
+    return round(v*(10**dec))/(10**dec)
+
 def define_label(v: float, cuts: list, labs: list):
     
     assert len(labs) == len(cuts) + 1
