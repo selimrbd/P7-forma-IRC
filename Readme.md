@@ -1,4 +1,4 @@
-# Analyser des données de formations
+# Analyser des données de formation
 
 Ce répertoire contient le code utilisé au cours d'un des projets de ma formation d'Ingénieur Pédagogique. 
 
